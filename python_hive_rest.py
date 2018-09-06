@@ -8,7 +8,7 @@ from flask_restful import Resource, Api
 #=======================================================================================================================
 
 app = Flask(__name__)
-db = hive.Connection(host="hn0-elc-sp.wchiduhu4wpurn1b4rq1rq1vtc.cx.internal.cloudapp.net",port=10000,database="default")
+db = hive.Connection(host="<hive host>",port=<default port>,database="default")
 cursor = db.cursor()
 
 #=======================================================================================================================
